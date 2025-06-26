@@ -1,29 +1,46 @@
-````markdown
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://sorting-visualizer-adidev.vercel.app/)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 # 🚀 Sort Visualizer
 
+An interactive, dark‑mode sorting algorithm visualizer built with React, MUI icons, and sleek neumorphic styling. Watch classic sorting algorithms animate step‑by‑step, adjust speed, choose algorithms, and enjoy a clean, responsive UI inspired by 2025 design trends.
 
-An interactive, dark-mode sorting algorithm visualizer built with React, MUI icons, and modern neumorphic styling. Watch classic sorting algorithms animate step-by-step, adjust speed, pick algorithms, and enjoy a clean, responsive UI inspired by 2025 design trends.
+🔗 **Live Demo:** [https://sorting-visualizer-adidev.vercel.app/](https://sorting-visualizer-adidev.vercel.app/)
 
+---
 
+## 📖 Table of Contents
+
+* [🎯 Features](#-features)
+* [⚙️ Installation](#️-installation)
+* [🚀 Usage](#-usage)
+* [🗂️ Project Structure](#️-project-structure)
+* [🤝 Contributing](#-contributing)
+* [📝 License](#-license)
+* [🙏 Acknowledgments](#-acknowledgments)
+
+---
 
 ## 🎯 Features
 
-- **Algorithms**: Bubble, Selection, Insertion, Merge, Quick  
-- **Speed Controls**: 1×, 2×, 3×, 4×, 5× playback buttons ⏩  
-- **Responsive**: Works on desktop, tablet, and mobile 📱  
-- **Dark-Mode Neumorphism**: Soft shadows, accent highlights, hover animations ✨  
-- **Custom Array**: Regenerate random arrays or tweak bar heights directly 🔄  
-- **Header & Footer**: Sticky site header with GitHub link; footer with “made with ❤️ by Adidev J J” 🔗  
+* **Algorithms**: Bubble, Selection, Insertion, Merge, Quick ⚙️
+* **Speed Controls**: 1×–5× playback buttons ⏩
+* **Play / Pause / Step**: Intuitive ▶️ / ❚❚ / ⏭ controls
+* **Custom Array**: Regenerate random arrays or adjust individual bars 🔄
+* **Dark‑Mode Neumorphism**: Soft shadows, accent highlights, hover animations ✨
+* **Sticky Header & Footer**: Quick links and author attribution 📑
+* **Mobile‑First Design**: Touch‑friendly controls and fluid layouts 📱
 
-
+---
 
 ## ⚙️ Installation
 
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/YourUserName/sort-visualizer.git
-   cd sort-visualizer
+1. **Clone the repository**
 
+   ```bash
+   git clone https://github.com/AdidevJJ/sort-visualizer.git
+   cd sort-visualizer
+   ```
 
 2. **Install dependencies**
 
@@ -33,7 +50,7 @@ An interactive, dark-mode sorting algorithm visualizer built with React, MUI ico
    yarn install
    ```
 
-3. **Start the dev server**
+3. **Start the development server**
 
    ```bash
    npm start
@@ -41,88 +58,65 @@ An interactive, dark-mode sorting algorithm visualizer built with React, MUI ico
    yarn start
    ```
 
-   Then open [http://localhost:3000](http://localhost:3000) in your browser.
+4. **Open in your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🚀 Usage
+
+1. **Select an Algorithm**: Click the algorithm pill in the header.
+2. **Adjust Speed**: Choose a speed multiplier (1× to 5×).
+3. **Play / Pause / Step**: Use the controls to animate or step through the sort.
+4. **Randomize Array**: Click 🔄 to generate a new set of values.
 
 
+---
 
-## 🛠️ Usage
+## 🗂️ Project Structure
 
-1. **Pick an algorithm**
-   Click one of the algorithm pills in the header row.
-2. **Set speed**
-   Click 1×–5× buttons to change the animation speed.
-3. **Play/Pause**
-   Use the ▶️ and ❚❚ icons to step through or auto-play the sort.
-4. **Generate new array**
-   Press 🔄 to randomize values.
-5. **Resize bars**
-   (If enabled) Drag a bar to adjust its height and re-compute.
-
-
-## 🔍 Project Structure
-
+```
 sort-visualizer/
-├─ src/
-│  ├─ algorithms/      # Sorting logic: BS, IS, Selection, Merge, Quick
-│  ├─ components/
-│  │  ├─ Bar.js        # Single bar component
-│  │  ├─ Header.js     # Sticky header with title & GitHub link
-│  │  └─ Footer.js     # Footer with author attribution
-│  ├─ App.js           # Main app & control logic
-│  ├─ App.css          # Neumorphic dark-mode styling & responsiveness
-│  └─ index.js         # Entry point
 ├─ public/
 │  └─ index.html       # HTML template
+├─ src/
+│  ├─ algorithms/      # Sorting logic (Bubble, Selection, Insertion, Merge, Quick)
+│  ├─ components/      # Reusable UI components
+│  │  ├─ Bar.js         # Renders a single bar
+│  │  ├─ Header.js      # Sticky top bar with controls and links
+│  │  └─ Footer.js      # Bottom attribution footer
+│  ├─ App.js           # Main application and state management
+│  ├─ App.css          # Neumorphic dark-mode styling & responsive rules
+│  └─ index.js         # Entry point
 ├─ package.json        # Project metadata & scripts
-└─ README.md           # This file
+└─ README.md           # Project documentation
 ```
 
 
-
-## 📱 Responsive Design
-
-* **Desktop & Tablet**: Neumorphic cards, centered layout
-* **Mobile**: Horizontal scroll for bars, stacked controls, smaller buttons
-* Built with CSS variables and media queries for fluid adaptation.
-
-
+---
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
+1. **Fork** the repo
+2. **Create** a branch: `git checkout -b feature/YourFeature`
+3. **Commit** your changes: `git commit -m "Add YourFeature"`
+4. **Push** to your branch: `git push origin feature/YourFeature`
+5. **Open** a Pull Request
 
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-3. Commit your changes
+Please follow the existing code style and include tests or documentation where relevant.
 
-   ```bash
-   git commit -m "Add YourFeature"
-   ```
-4. Push to your branch
-
-   ```bash
-   git push origin feature/YourFeature
-   ```
-5. Open a Pull Request
-
-Please follow the existing code style and add relevant tests if applicable.
-
-
+---
 
 ## 📝 License
 
-This project is open-source under the [MIT License](LICENSE). Feel free to use and modify!
+This project is open-source under the [MIT License](LICENSE).
 
-
+---
 
 ## 🙏 Acknowledgments
 
-* Built with ❤️ by [Adidev J J](https://github.com/AdidevJJ)
-* Icons by Material-UI (MUI) 🎨
-* Inspired by modern neumorphic & dark-mode design trends of 2025 🌑
-
-Enjoy visualizing your sorts! 🎉
+* **Built with ❤️ by [Adidev J J](https://github.com/AdidevJJ)**
+* Icons by **Material‑UI (MUI)**
 
 
+Enjoy visualizing your sorts and happy coding! 🎉
