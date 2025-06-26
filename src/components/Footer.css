@@ -1,0 +1,27 @@
+.site-footer {
+  margin-top: auto;              /* push to bottom */
+  padding: 1rem var(--spacing);
+    font-family: monospace;
+  text-align: center;
+
+}
+
+.site-footer p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.site-footer .heart {
+  color: #e0245e;               /* a sweet rosy red */
+}
+
+.site-footer .footer-link {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition-speed);
+}
+
+.site-footer .footer-link:hover {
+  color: var(--text-primary);
+}
