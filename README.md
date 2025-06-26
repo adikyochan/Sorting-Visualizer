@@ -1,70 +1,132 @@
-# Getting Started with Create React App
+````markdown
+# 🚀 Sort Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Sort Visualizer Screenshot](./screenshot.png)
 
-## Available Scripts
+An interactive, dark-mode sorting algorithm visualizer built with React, MUI icons, and modern neumorphic styling. Watch classic sorting algorithms animate step-by-step, adjust speed, pick algorithms, and enjoy a clean, responsive UI inspired by 2025 design trends.
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## 🎯 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Algorithms**: Bubble, Selection, Insertion, Merge, Quick  
+- **Speed Controls**: 1×, 2×, 3×, 4×, 5× playback buttons ⏩  
+- **Responsive**: Works on desktop, tablet, and mobile 📱  
+- **Dark-Mode Neumorphism**: Soft shadows, accent highlights, hover animations ✨  
+- **Custom Array**: Regenerate random arrays or tweak bar heights directly 🔄  
+- **Header & Footer**: Sticky site header with GitHub link; footer with “made with ❤️ by Adidev J J” 🔗  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `yarn test`
+## ⚙️ Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/YourUserName/sort-visualizer.git
+   cd sort-visualizer
+````
 
-### `yarn build`
+2. **Install dependencies**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start the dev server**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-### `yarn eject`
+   Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Pick an algorithm**
+   Click one of the algorithm pills in the header row.
+2. **Set speed**
+   Click 1×–5× buttons to change the animation speed.
+3. **Play/Pause**
+   Use the ▶️ and ❚❚ icons to step through or auto-play the sort.
+4. **Generate new array**
+   Press 🔄 to randomize values.
+5. **Resize bars**
+   (If enabled) Drag a bar to adjust its height and re-compute.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🔍 Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+sort-visualizer/
+├─ src/
+│  ├─ algorithms/      # Sorting logic: BS, IS, Selection, Merge, Quick
+│  ├─ components/
+│  │  ├─ Bar.js        # Single bar component
+│  │  ├─ Header.js     # Sticky header with title & GitHub link
+│  │  └─ Footer.js     # Footer with author attribution
+│  ├─ App.js           # Main app & control logic
+│  ├─ App.css          # Neumorphic dark-mode styling & responsiveness
+│  └─ index.js         # Entry point
+├─ public/
+│  └─ index.html       # HTML template
+├─ package.json        # Project metadata & scripts
+└─ README.md           # This file
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📱 Responsive Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* **Desktop & Tablet**: Neumorphic cards, centered layout
+* **Mobile**: Horizontal scroll for bars, stacked controls, smaller buttons
+* Built with CSS variables and media queries for fluid adaptation.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤝 Contributing
 
-### Making a Progressive Web App
+1. Fork the repository
+2. Create a feature branch
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Commit your changes
 
-### Advanced Configuration
+   ```bash
+   git commit -m "Add YourFeature"
+   ```
+4. Push to your branch
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Open a Pull Request
 
-### Deployment
+Please follow the existing code style and add relevant tests if applicable.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `yarn build` fails to minify
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source under the [MIT License](LICENSE). Feel free to use and modify!
+
+---
+
+## 🙏 Acknowledgments
+
+* Built with ❤️ by [Adidev J J](https://github.com/AdidevJJ)
+* Icons by Material-UI (MUI) 🎨
+* Inspired by modern neumorphic & dark-mode design trends of 2025 🌑
+
+Enjoy visualizing your sorts! 🎉
+
+```
+```
