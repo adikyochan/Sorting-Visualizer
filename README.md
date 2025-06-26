@@ -1,11 +1,10 @@
 ````markdown
 # 🚀 Sort Visualizer
 
-![Sort Visualizer Screenshot](./screenshot.png)
 
 An interactive, dark-mode sorting algorithm visualizer built with React, MUI icons, and modern neumorphic styling. Watch classic sorting algorithms animate step-by-step, adjust speed, pick algorithms, and enjoy a clean, responsive UI inspired by 2025 design trends.
 
----
+
 
 ## 🎯 Features
 
@@ -16,7 +15,7 @@ An interactive, dark-mode sorting algorithm visualizer built with React, MUI ico
 - **Custom Array**: Regenerate random arrays or tweak bar heights directly 🔄  
 - **Header & Footer**: Sticky site header with GitHub link; footer with “made with ❤️ by Adidev J J” 🔗  
 
----
+
 
 ## ⚙️ Installation
 
@@ -24,7 +23,7 @@ An interactive, dark-mode sorting algorithm visualizer built with React, MUI ico
    ```bash
    git clone https://github.com/YourUserName/sort-visualizer.git
    cd sort-visualizer
-````
+
 
 2. **Install dependencies**
 
@@ -44,7 +43,7 @@ An interactive, dark-mode sorting algorithm visualizer built with React, MUI ico
 
    Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
----
+
 
 ## 🛠️ Usage
 
@@ -59,11 +58,9 @@ An interactive, dark-mode sorting algorithm visualizer built with React, MUI ico
 5. **Resize bars**
    (If enabled) Drag a bar to adjust its height and re-compute.
 
----
 
 ## 🔍 Project Structure
 
-```
 sort-visualizer/
 ├─ src/
 │  ├─ algorithms/      # Sorting logic: BS, IS, Selection, Merge, Quick
@@ -80,7 +77,7 @@ sort-visualizer/
 └─ README.md           # This file
 ```
 
----
+
 
 ## 📱 Responsive Design
 
@@ -88,7 +85,7 @@ sort-visualizer/
 * **Mobile**: Horizontal scroll for bars, stacked controls, smaller buttons
 * Built with CSS variables and media queries for fluid adaptation.
 
----
+
 
 ## 🤝 Contributing
 
@@ -112,13 +109,13 @@ sort-visualizer/
 
 Please follow the existing code style and add relevant tests if applicable.
 
----
+
 
 ## 📝 License
 
 This project is open-source under the [MIT License](LICENSE). Feel free to use and modify!
 
----
+
 
 ## 🙏 Acknowledgments
 
@@ -128,5 +125,4 @@ This project is open-source under the [MIT License](LICENSE). Feel free to use a
 
 Enjoy visualizing your sorts! 🎉
 
-```
-```
+
