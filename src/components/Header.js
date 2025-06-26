@@ -8,7 +8,7 @@ export default function Header() {
       <div className="header-container">
         <h1 className="site-title">Sort Visualizer</h1>
         <nav className="nav-links">
-          <a href="#home"><GitHubIcon  /></a>
+          <a href="https://github.com/adikyochan/Sorting-Visualizer"><GitHubIcon  /></a>
 
         </nav>
       </div>
