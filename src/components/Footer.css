@@ -1,5 +1,5 @@
 .site-footer {
-  margin-top: auto;              /* push to bottom */
+  margin-top: auto;             
   padding: 1rem var(--spacing);
     font-family: monospace;
   text-align: center;
@@ -13,7 +13,7 @@
 }
 
 .site-footer .heart {
-  color: #e0245e;               /* a sweet rosy red */
+  color: #e0245e;             
 }
 
 .site-footer .footer-link {
