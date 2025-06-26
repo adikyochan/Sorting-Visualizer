@@ -165,7 +165,7 @@ class App extends Component {
   handleAlgorithmChange = (e) => {
     const algo = e.target.value;
     this.setState({ algorithm: algo }, () => {
-      // regenerate a fresh random array (and steps)
+
       this.generateRandomArray();
     });
   };
@@ -235,7 +235,7 @@ class App extends Component {
             <div className="speed-buttons">
               Speed:
               {[1, 2, 3, 4, 5].map((mult) => {
-                // compute the delay for each multiplier (base 100ms @ 1×)
+
                 const d = Math.floor(100 / mult);
                 const isActive = this.state.delay === d;
                 return (
